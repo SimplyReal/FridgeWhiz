@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FridgeWhiz 🍽️</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>🥦 FridgeWhiz AI : Your Secret Sauce 🍝</h1>
+
+    <div class="upload-section">
+      <h2>Upload your fridge/ingredients image 🧊</h2>
+      <form action="/process" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required>
+        
+        <div class="filters">
+          <h3>Apply Filters</h3>
+          <label><input type="checkbox" name="filters" value="vegetarian"> Vegetarian</label>
+          <label><input type="checkbox" name="filters" value="non-vegetarian"> Non-Vegetarian</label>
+          <label><input type="checkbox" name="filters" value="gluten-free"> Gluten-Free</label>
+          <label><input type="checkbox" name="filters" value="quick meals"> Quick Meals</label>
+          <label><input type="checkbox" name="filters" value="low calorie"> Low Calorie</label>
+          <label><input type="checkbox" name="filters" value="high protein"> High Protein</label>
+        </div>
+
+        <!-- Optional: Hidden input to ensure filters are always sent -->
+        <input type="hidden" name="filters" value="none">
+
+        <button type="submit">Generate Recipes 🚀</button>
+      </form>
+    </div>
+
+    {% if recipes %}
+    <div class="results">
+      <h2>🍽️ Recipe Suggestions</h2>
+      <pre>{{ recipes }}</pre>
+    </div>
+    {% endif %}
+  </div>
+</body>
+</html>

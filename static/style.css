@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  h1 {
+    text-align: center;
+    color: #ff6363;
+  }
+  .upload-section, .filters, .results {
+    margin-top: 2rem;
+  }
+  input[type="file"] {
+    display: block;
+    margin: 1rem auto;
+  }
+  .filters label {
+    margin-right: 1rem;
+  }
+  button {
+    background-color: #ff6363;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #e55353;
+  }
+  .results {
+    white-space: pre-wrap;
+    margin-top: 2rem;
+    background-color: #fefefe;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ddd;
+  }
+  

@@ -1,6 +1,6 @@
 # FridgeWhiz AI - your secret sauce
 
-![Demo]()
+![Demo](vdo.gif)
 
 **Tired of staring at a full fridge with no meal ideas?** FridgeWhiz uses AI to generate recipes from your fridge photos in seconds! 
 
@@ -47,13 +47,6 @@ python app.py
 ├── 📜 requirements.txt     # Python dependencies
 └── 📄 README.md            # You're here!
 ```
-
-## 🤝 Contribute
-1. Fork the repo
-2. Create your branch (`git checkout -b feature/awesome-feature`)
-3. Commit changes (`git commit -m 'Add feature'`)
-4. Push (`git push origin feature/awesome-feature`)
-5. Open a PR
 
 ## 📜 License
 MIT © 2024 [Neha Kumari]

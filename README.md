@@ -14,7 +14,7 @@
 ## 🚀 Quick Start
 ```bash
 # Clone & setup
-git clone https://github.com/yourusername/FridgeWhiz.git
+git clone https://github.com/SimplyReal/FridgeWhiz.git
 cd FridgeWhiz
 pip install -r requirements.txt
 
@@ -31,8 +31,21 @@ streamlit run app.py
 | **Computer Vision** | OpenCV/Pillow |
 
 
-## 🌍 Live Demo
+## 🌍 Demo
 [!([https://img.shields.io/badge/Try_Live-Demo-brightgreen](https://youtu.be/QSJNQczB4VA))](https://your-streamlit-url.streamlit.app)
+
+## 📂 Project Structure
+
+FridgeWhiz/
+├── app.py                # Flask backend
+├── recipe_model.py       # AI integration
+├── static/               # CSS/images
+│   └── style.css
+├── templates/            # HTML pages
+│   ├── index.html
+│   └── process.html
+├── requirements.txt      # Dependencies
+└── README.md
 
 ## 🤝 Contribute
 1. Fork the repo

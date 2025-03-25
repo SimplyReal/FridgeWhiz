@@ -19,15 +19,15 @@ cd FridgeWhiz
 pip install -r requirements.txt
 
 # Run locally
-streamlit run app.py
+python app.py
 ```
 
 ## 🛠️ Tech Stack
 | Component | Technology |
 |-----------|------------|
-| **Frontend** |  |
+| **Frontend** | HTML5, CSS3 |
 | **Backend** | Python |
-| **AI Model** | Qwen2-VL-72B (via Nebius AI) |
+| **AI Model** | Qwen2-VL-72B Instruct (via Nebius AI) |
 | **Computer Vision** | OpenCV/Pillow |
 
 
@@ -35,17 +35,19 @@ streamlit run app.py
 [!([https://img.shields.io/badge/Try_Live-Demo-brightgreen](https://youtu.be/QSJNQczB4VA))](https://your-streamlit-url.streamlit.app)
 
 ## 📂 Project Structure
-
-FridgeWhiz/
-├── app.py                # Flask backend
-├── recipe_model.py       # AI integration
-├── static/               # CSS/images
-│   └── style.css
-├── templates/            # HTML pages
-│   ├── index.html
-│   └── process.html
-├── requirements.txt      # Dependencies
-└── README.md
+```bash
+📦 FridgeWhiz/
+├── 🐍 app.py                # Flask backend
+├── 🤖 recipe_model.py       # AI model integration
+├── 🎨 static/
+│   ├── style.css           # Custom styles
+├── Images                # Uploaded Images
+├── 📂 templates/
+│   ├── index.html          # Homepage (upload image)
+│   └── process.html       # Recipe results page
+├── 📜 requirements.txt     # Python dependencies
+└── 📄 README.md            # You're here!
+```
 
 ## 🤝 Contribute
 1. Fork the repo

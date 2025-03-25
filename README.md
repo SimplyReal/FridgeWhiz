@@ -30,9 +30,8 @@ python app.py
 | **AI Model** | Qwen2-VL-72B Instruct (via Nebius AI) |
 | **Computer Vision** | OpenCV/Pillow |
 
-
-## 🌍 Demo
-[!([https://img.shields.io/badge/Try_Live-Demo-brightgreen](https://youtu.be/QSJNQczB4VA))](https://your-streamlit-url.streamlit.app)
+## 🎥 Demo Video
+[![Watch the Demo](https://img.youtube.com/vi/QSJNQczB4VA/0.jpg)](https://youtu.be/QSJNQczB4VA)
 
 ## 📂 Project Structure
 ```bash
